@@ -1,11 +1,11 @@
-import os
-import json
-import shutil
-from subprocess import PIPE, run
-import sys
+import os #operating systrem
+import json #operate on json
+import shutil #copy and  overwrite operations
+from subprocess import PIPE, run  #run any terminal command we want, compile an drun go code
+import sys #access to command line arguments
 
 
-GAME_DIR_PATTERN = "game"
+GAME_DIR_PATTERN = "game" 
 GAME_CODE_EXTENSION = ".go"
 GAME_COMPILE_COMMAND = ["go", "build"]
 
